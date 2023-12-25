@@ -35,42 +35,37 @@
             <!-- Text -->
             <section class="box">
                 <h3>终端命令行</h3>
-                <p>支持终端命令行 git clone , wget , curl 等工具下载.
-                    <br>
-                    支持 <font color="red">raw.githubusercontent.com</font> , <font color="red">gist.github.com
-                    </font> , <font color="red">gist.githubusercontent.com</font> 文件下载.
-                    <br>
-                    <b>注意：</b>不支持 SSH Key 方式 git clone 下载.
+                <p> 支持终端命令行 git clone , wget , curl 等工具下载. <br> 支持 <font color="red">raw.githubusercontent.com</font> ,
+                    <font color="red">gist.github.com </font> , <font color="red">gist.githubusercontent.com</font>
+                    文件下载. <br><b>注意：</b>不支持 SSH Key 方式 git clone 下载.
                 </p>
-
                 <hr>
-
                 <header>
                     <h4><b>git clone</b></h4>
                 </header>
                 <p><b>git clone</b>
-                    <font color="red">https://ghps.cc/</font>
+                    <font color="red">https://mirror.ghproxy.com/</font>
                     <font color="green">https://github.com/stilleshan/ServerStatus</font>
                 </p>
-
+                <header>
+                    <h4><b>git clone 私有仓库</b></h4>
+                </header>
+                <p> Clone 私有仓库需要用户在 <a href="https://github.com/settings/tokens" target="_blank">Personal access
+                        tokens</a> 申请 Token 配合使用. <br><b>git clone</b>
+                    <font color="red">https://</font><b>user:your_token</b>
+                    <font color="red">@mirror.ghproxy.com/</font>
+                    <font color="green">https://github.com/your_name/your_private_repo</font>
+                </p>
                 <header>
                     <h4><b>wget &amp; curl</b></h4>
                 </header>
-                <p><b>wget</b>
-                    <font color="red">https://ghps.cc/</font>
+                <p><b>wget</b>&nbsp;<font color="red">https://mirror.ghproxy.com/</font>
                     <font color="green">https://github.com/stilleshan/ServerStatus/archive/master.zip</font>
-                    <br>
-                    <b>wget</b>
-                    <font color="red">https://ghps.cc/</font>
+                    <br><b>wget</b>&nbsp;<font color="red">https://mirror.ghproxy.com/</font>
                     <font color="green">https://raw.githubusercontent.com/stilleshan/ServerStatus/master/Dockerfile
-                    </font>
-                    <br>
-                    <b>curl -O</b>
-                    <font color="red">https://ghps.cc/</font>
-                    <font color="green">https://github.com/stilleshan/ServerStatus/archive/master.zip</font>
-                    <br>
-                    <b>curl -O</b>
-                    <font color="red">https://ghps.cc/</font>
+                    </font><br><b>curl -O</b>&nbsp;<font color="red">https://mirror.ghproxy.com/</font>
+                    <font color="green">https://github.com/stilleshan/ServerStatus/archive/master.zip</font><br><b>curl
+                        -O</b>&nbsp;<font color="red">https://mirror.ghproxy.com/</font>
                     <font color="green">https://raw.githubusercontent.com/stilleshan/ServerStatus/master/Dockerfile
                     </font>
                 </p>
@@ -78,46 +73,35 @@
 
             <section class="box">
                 <h3>首页下载</h3>
-                <p>在本页地址栏输入合规链接（参考以下链接）点击下载按钮
-                    <br>
-                    支持 <font color="red">raw.githubusercontent.com</font> , <font color="red">gist.github.com
-                    </font> , <font color="red">gist.githubusercontent.com</font> 文件下载.
+                <p> 在本页地址栏输入合规链接（参考以下链接）点击下载按钮 <br> 支持 <font color="red">raw.githubusercontent.com</font> , <font
+                        color="red">gist.github.com </font> , <font color="red">gist.githubusercontent.com</font> 文件下载.
                 </p>
-
                 <hr>
-
                 <header>
                     <h4><b>Raw 文件</b></h4>
                 </header>
-                <p>https://raw.githubusercontent.com/stilleshan/ServerStatus/master/Dockerfile</p>
-
+                <p> https://raw.githubusercontent.com/stilleshan/ServerStatus/master/Dockerfile </p>
                 <header>
                     <h4><b>分支源码</b></h4>
                 </header>
                 <p>https://github.com/stilleshan/ServerStatus/archive/master.zip</p>
-
                 <header>
                     <h4><b>Releases 源码</b></h4>
                 </header>
                 <p>https://github.com/stilleshan/ServerStatus/archive/v1.0.tar.gz</p>
-
-
                 <header>
                     <h4><b>Releases 文件</b></h4>
                 </header>
-                <p>https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz</p>
+                <p> https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz </p>
             </section>
-        </div>
-    </div>
-</section>
-</form>
-<!-- Footer -->
-<footer id="footer">
-    <ul class="copyright">
-        <li>网页样式 : <a href="https://ghps.cc/" target="_blank">ghproxy.com</a></li>
-        <li>代理项目 : <a href="https://github.com/hunshcn/gh-proxy/" target="_blank">hunshcn/gh-proxy</a></li>
-    </ul>
-</footer>
-</body>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>网页样式 : <a href="https://ghproxy.com/" target="_blank">ghproxy.com</a></li>
+                    <li>代理项目 : <a href="https://github.com/hunshcn/gh-proxy/" target="_blank">hunshcn/gh-proxy</a></li>
+                </ul>
+            </footer>
+            </body>
 
 </html>
